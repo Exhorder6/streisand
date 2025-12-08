@@ -6,7 +6,7 @@
 
 # Core with Azure dependencies
 #
-ansible[azure]==2.8.4
+ansible==12.0.0
 
 SecretStorage
 
@@ -24,3 +24,4 @@ linode-api4
 
 # Rackspace
 pyrax
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
